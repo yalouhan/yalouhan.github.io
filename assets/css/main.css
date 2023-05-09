@@ -1,0 +1,48 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,700,900");
+
+
+/* body */
+body {
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Roboto mono', monospace;  
+    background-color: #f5f5f5;  
+    color: rgb(0, 0, 0);  
+  }
+  
+  
+
+/* banner */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 3px;
+  }
+    
+        

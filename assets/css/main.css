@@ -71,6 +71,11 @@ header {
     flex-basis: 30%;  
 }
 
+#siderbar header, h1, h2, span{
+    display: flex;
+}
+
+
 #news {
     flex-basis: 70%;  
 }

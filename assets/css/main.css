@@ -12,10 +12,6 @@ body, div{
     padding: 0;
 }
 
-#wrapper{
-    display: inherit;
-}
-
 h1{
     font-family: inherit;
     font-size: 20pt;
@@ -52,7 +48,7 @@ a{
         color: #3700ff;
     }
 
-#header {
+#globalHeader {
     position: sticky;
     top: 0;
     border-bottom: 1pt solid black;
@@ -64,7 +60,7 @@ a{
     padding: 0 20pt;
 }
 
-    #header a.button {
+#globalHeader a.button {
         font-family: inherit;
         font-size: inherit;
         font-weight: 900;
@@ -77,12 +73,12 @@ a{
         transition: background-color 0.3s, color 0.3s;
     }
 
-        #header a.button:hover {
+        #globalHeader a.button:hover {
             background-color: #3700ff;
             color: white;
         }
 
-    #header a.logo{
+    #globalHeader a.logo{
         font-family: inherit;
         font-size: inherit;
         font-weight: 900;

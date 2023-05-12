@@ -8,6 +8,8 @@ body{
     font-weight: 300;
     line-height: normal;
     color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -46,26 +48,55 @@ a{
         color: #3700ff;
     }
 
-    a.logo{
+#header {
+    position: sticky;
+    top: 0;
+    border-bottom: #000000;
+    border-bottom: 1pt solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 30pt;
+    padding: 0 20pt;
+}
+
+    #header a.button {
         font-family: inherit;
         font-size: inherit;
         font-weight: 900;
         line-height: normal;
         color: #3700ff;
+        padding: 10px 20px; 
+        border-radius: 20pt;
+        border: 1pt solid black;
+        text-decoration: none;
+        color: black;
+        transition: background-color 0.3s, color 0.3s;
     }
 
-        a.logo img{
+        #header a.button:hover {
+            background-color: black;
+            color: white;
+        }
+
+    #header a.logo{
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: 900;
+        line-height: normal;
+        color: #3700ff;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+        #header a.logo .symbol img{
             height: 1em;
             width: auto;
             border-radius: 50%;
+            margin-right: 15pt;
         }
-
-header {
-    position: sticky;
-    top: 0;
-    border-bottom: #000000;
-    border-bottom: 1pt solid black;
-}
 
 #sidebar {
     flex-basis: 30%;  

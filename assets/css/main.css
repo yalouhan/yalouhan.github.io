@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,700,900");
 
-body{
+body, div{
     display: flex;
     flex-direction: row;
     font-family: 'Roboto Mono', monospace;
@@ -10,6 +10,10 @@ body{
     color: #000000;
     margin: 0;
     padding: 0;
+}
+
+#wrapper{
+    display: inherit;
 }
 
 h1{
@@ -37,7 +41,7 @@ p{
 }
 
 a{
-    transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    transition: border-bottom-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
     color: #000000;
     border-bottom: dotted 1px rgba(0, 0, 0, 0.5);
@@ -51,7 +55,6 @@ a{
 #header {
     position: sticky;
     top: 0;
-    border-bottom: #000000;
     border-bottom: 1pt solid black;
     display: flex;
     justify-content: space-between;
@@ -67,16 +70,15 @@ a{
         font-weight: 900;
         line-height: normal;
         color: #3700ff;
-        padding: 10px 20px; 
+        padding: 1px 10px; 
         border-radius: 20pt;
         border: 1pt solid black;
         text-decoration: none;
-        color: black;
         transition: background-color 0.3s, color 0.3s;
     }
 
         #header a.button:hover {
-            background-color: black;
+            background-color: #3700ff;
             color: white;
         }
 
@@ -102,9 +104,9 @@ a{
     flex-basis: 30%;  
 }
 
-#siderbar header, h1, h2, span{
-    display: flex;
-}
+    #siderbar header, h1, h2, span{
+        display: flex;
+    }
 
 
 #news {

@@ -56,8 +56,8 @@ body{
 
     .container{
         width: 100%;
-        margin: auto;
-        padding: 1em;
+        margin: auto 0 auto 0;
+        padding: 2px 1em 2px 1em;
     }
 
     @media (min-width:768px) {
@@ -128,11 +128,26 @@ header {
 }
 
 #sidebar {
+    display: flex;
     width: 375px;
     overflow: auto;
     flex-shrink: 0;
     margin: 5px 20px auto 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+    #sidebar #header{
+        text-align: center;
+    }
+
+    #sidebar #header p{
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
 
 #news {
     flex-grow: 1;
@@ -153,7 +168,7 @@ header {
 .card{
     border: 2pt solid black;
     font-family: inherit;
-    margin: auto;
+    margin: 10px auto 0 auto;
 }
 
     .card h1{

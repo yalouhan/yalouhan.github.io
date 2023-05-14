@@ -48,7 +48,7 @@ a{
         color: #3700ff;
     }
 
-#globalHeader {
+header {
     position: sticky;
     top: 0;
     border-bottom: 1pt solid black;
@@ -60,7 +60,7 @@ a{
     padding: 0 20pt;
 }
 
-#globalHeader a.button {
+header a.button {
         font-family: inherit;
         font-size: inherit;
         font-weight: 900;
@@ -73,12 +73,12 @@ a{
         transition: background-color 0.3s, color 0.3s;
     }
 
-        #globalHeader a.button:hover {
+        header a.button:hover {
             background-color: #3700ff;
             color: white;
         }
 
-    #globalHeader a.logo{
+    header a.logo{
         font-family: inherit;
         font-size: inherit;
         font-weight: 900;
@@ -89,7 +89,7 @@ a{
         align-items: center;
     }
 
-        #globalHeader a.logo .symbol img{
+        header a.logo .symbol img{
             height: 1em;
             width: auto;
             border-radius: 50%;

@@ -163,10 +163,21 @@ header {
     @media (max-width: 768px) {
         #sidebar {
             width: 100%;
+            overflow: auto;
         }
 
         #news {
             display: none;
+            overflow: auto;
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+        #sidebar::-webkit-scrollbar, #news::-webkit-scrollbar {
+            display: none;
+        }
+        #sidebar, #news {
+            overflow: auto;
         }
     }
 

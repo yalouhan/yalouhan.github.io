@@ -183,7 +183,7 @@ header {
 
     .maincard{
         padding: 0;
-        margin: auto 10pt auto 10pt;
+        margin: 10pt;
         display: flex;
         flex-direction: row;
     }

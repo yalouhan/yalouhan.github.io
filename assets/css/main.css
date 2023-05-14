@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,700,900");
-@import url("assets\css\fontawesome.min.css");
+@import url(all.css);
+@import url(rands.css);
+@import url(solid.css);
 
 *{
     box-sizing: border-box;
@@ -11,6 +13,7 @@ h1{
     font-weight: 700;
     line-height: normal;
     color: inherit;
+    margin: 10pt auto 5pt auto;
 }
 
 h2{
@@ -140,14 +143,15 @@ header {
 }
 
     #sidebar #header{
-        text-align: center;
+        text-align: left;
     }
 
     #sidebar #header p{
         font-family: inherit;
         font-size: 14px;
         font-weight: 700;
-        text-align: center;
+        text-align: left;
+        margin: 10pt 0 10pt 0;
     }
 
 #news {
@@ -214,7 +218,18 @@ div.contact{
 }
 
     #contactinfo{
+        display: block;
+        margin: 5px;
+        padding: 0;
         list-style: none;
+    }
+
+    #contactinfo a{
+        border: none;
+    }
+
+    #contactinfo i{
+        margin: auto 15px auto auto;
     }
 
     #contactinfo .label{

@@ -1,20 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const elementsToType = [
-        { id: 'firstTyping', text: "Welcome to Yalou Han's" },
-        { id: 'secondTyping', text: 'DESIGN SHOW' },
-        { id: 'thirdTyping', text: 'currently a master student' },
-        { id: 'fourthTyping', text: '@idecourse' },
-    ];
+    const typingString = "I hold a bachelor's degree in industrial design engineering from the Department of Mechanical Engineering at XJTU and have previously worked as a research assistant interested in lattice structure application for metal additive manufacturing mainly with the Laser Powder Bed Fusion process.";
 
     function typeText(element, text, currentIndex) {
         if (element && currentIndex < text.length) {
             element.textContent += text.charAt(currentIndex);
-            setTimeout(() => typeText(element, text, currentIndex + 1), 100); // Adjust the typing speed by changing the timeout value
+            setTimeout(() => typeText(element, text, currentIndex + 1), 50); // Adjust the typing speed by changing the timeout value
         }
     }
 
-    elementsToType.forEach(item => {
-        const element = document.getElementById(item.id);
-        typeText(element, item.text, 0);
-    });
+    typeText(document.getElementById("pToType"), typingString, 0);
 });

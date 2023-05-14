@@ -208,6 +208,22 @@ header {
             flex: 3;
         }
 
+div.contact{
+    border-top: 1pt solid black;
+    margin: 20pt auto 0 auto;
+}
+
+    #contactinfo{
+        list-style: none;
+    }
+
+    #contactinfo .label{
+        text-decoration: none;
+        font-family: inherit;
+        font-size: 12pt;
+        font-weight: 700;
+    }
+
 
 
 

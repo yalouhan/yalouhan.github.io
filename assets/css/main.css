@@ -182,12 +182,25 @@ header {
     }
 
     .maincard{
+        padding: 0;
+        margin: auto 10pt auto 10pt;
         display: flex;
         flex-direction: row;
     }
 
         .maincard .Thumbnails{
             flex: 1;
+        }
+
+        .Thumbnails {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .Thumbnails img {
+            max-width: 100%;
+            height: auto;
         }
         
         .maincard .cardText{

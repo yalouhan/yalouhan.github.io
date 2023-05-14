@@ -171,8 +171,29 @@ header {
     margin: 10px auto 0 auto;
 }
 
-    .card h1{
+    .card h2, p{
         font-size: 16px;
+        margin: 10pt;
     }
+
+    .card .headerincard{
+        padding: 0;
+        margin: auto 10pt auto 10pt;
+    }
+
+    .maincard{
+        display: flex;
+        flex-direction: row;
+    }
+
+        .maincard .Thumbnails{
+            flex: 1;
+        }
+        
+        .maincard .cardText{
+            flex: 3;
+        }
+
+
 
 

@@ -89,7 +89,7 @@ a{
         align-items: center;
     }
 
-        #header a.logo .symbol img{
+        #globalHeader a.logo .symbol img{
             height: 1em;
             width: auto;
             border-radius: 50%;

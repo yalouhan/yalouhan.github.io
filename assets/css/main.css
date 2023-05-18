@@ -299,7 +299,7 @@ div.contact{
         }
 
             @media screen and (min-width:700px) {
-                #spring {
+                #springRE {
                     column-count: 4;
                 }
             }

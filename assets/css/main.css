@@ -292,14 +292,14 @@ div.contact{
         }
     }
 
-        #springRE {
+        #springBIG {
             column-count: 1;
             column-gap: 20px;
             margin-top: 20px;
         }
 
             @media screen and (min-width:700px) {
-                #springRE {
+                #springBIG {
                     column-count: 4;
                 }
             }

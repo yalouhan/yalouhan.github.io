@@ -84,7 +84,7 @@ header {
     align-items: center;
     background-color: white;
     height: 30pt;
-    padding: 0 20pt;
+    padding: 0;
 }
 
     #header{
@@ -142,7 +142,7 @@ header {
 #sidebar {
     display: flex;
     width: 375px;
-    max-height: calc(100vh - 50px);
+    max-height: 100vh;
     overflow: auto;
     flex-shrink: 0;
     margin: 0 20px auto 0;

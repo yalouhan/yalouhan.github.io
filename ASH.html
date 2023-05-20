@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AshtoInfo Convertor</title>
+        <link rel="icon" link="images\logo.svg" type="image/svg">
+        <meta charset="utf-8" />
+        <meta name="viewport" type="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets\css\main.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <noscript><link rel="stylesheet" href="assets\css\noscript.css" /></noscript>
+    </head>
+
+    <body class="container">
+         <!-- Header -->
+            <header id="header">
+
+                <!-- back button -->
+                    <a class="button" id="backButton"><i class="fa-solid fa-arrow-left-long"></i></a>
+
+                    <script>
+                        document.getElementById("backButton").addEventListener("click", function(){
+                            window.history.back();
+                        });
+                    </script>
+
+                <!-- LOGO -->
+                    <a href="index.html" class="logo">
+                        <span class="symbol"><img src="images\logo.svg" alt="" /></span><span class="title">Yalou Han</span>
+                    </a>
+                
+                <!-- Navigation -->
+                    <a href="projects.html" class="button">Show More</a>
+
+            </header>
+
+        <div id="wrapper">
+            <div class="projectContent">
+                <div class="projectInfo">
+                    <h1>
+                        AshtoInfo Converter
+                    </h1>
+                    <p>
+                        This project further explores the potential of ashes by transforming the pollutant into a medium of information and using the esp32 microcontroller to develop a way of using it with minimal power consumption.
+                    </p>
+                </div>
+                <div id="projectBook">
+                    <div id="page1"><img link="images\ash\page.png" /></div>
+                    <div id="page2"><img link="images\ash\page2.png" /></div>
+                    <div id="page3"><img link="images\ash\page3.png" /></div>
+                    <div id="page4"><img link="images\ash\page4.png" /></div>
+                    <div id="page5"><img link="images\ash\page5.png" /></div>
+                    <div id="page6"><img link="images\ash\page6.png" /></div>
+                    <div id="page7"><img link="images\ash\page7.png" /></div>
+                    <div id="page8"><img link="images\ash\page8.png" /></div>
+                    <div id="page9"><img link="images\ash\page9.png" /></div>
+                    <div id="page10"><img link="images\ash\page10.png" /></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

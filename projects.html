@@ -16,6 +16,15 @@
         <!-- Header -->
         <header id="header">
 
+            <!-- back button -->
+                <a class="button" id="backButton"><i class="fa-solid fa-arrow-left-long"></i></a>
+
+                <script>
+                    document.getElementById("backButton").addEventListener("click", function(){
+                        window.history.back();
+                    });
+                </script>
+
             <!-- LOGO -->
                 <a href="index.html" class="logo">
                     <span class="symbol"><img src="images\logo.svg" alt="" /></span><span class="title">Yalou Han</span>
@@ -23,7 +32,7 @@
             
         </header>
 
-        <div class="wrapper">
+        <div id="wrapper">
             <div id="springBIG">
                 <a href="ASH.html">
                     <div class="project">
@@ -33,7 +42,7 @@
                                 Converter</h2>
                         </div>
                         <div class="description">
-                            <p>This project further explores the potential of ashes by transforming the pollutant into a medium of information and using the esp32 microcontroller to develop a way of using it with minimal power consumption.</p>
+                            <p>In this project, a subjective time-aware clock was created using the ESP32 microcontroller control technology by making magnetic fluid ink as a pointer from the ashes produced by combustion.</p>
                         </div>
                     </div>
                 </a>

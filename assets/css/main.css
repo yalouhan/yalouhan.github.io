@@ -456,6 +456,64 @@ div#bookContainer{
     width: 100%;
     height: 100%;
 }
+
+
+#CV{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#basicInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0; 
+    padding: 0;
+    border-bottom: 2pt solid black;
+}
+
+#name{
+    text-align: left;
+    max-width: 50vw;
+    height: fit-content;
+}
+
+#contactyalou{
+    text-align: right;
+}
+
+#education{
+    border-bottom: 2pt solid black;
+    margin: 20px 0;
+}
+
+#internship{
+    border-bottom: 2pt solid black;
+    margin: 20px 0;
+}
+#awards{
+    border-bottom: 2pt solid black;
+    margin: 20px 0;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+    .experience h2{
+        margin: 0 0 2px 0;
+        max-width: 50vw;
+        height: fit-content;
+    }
+    .experience p{
+        margin: 0 0 5px 0;
+        max-width: 50vw;
+        height: fit-content;
+    }
     
 
 

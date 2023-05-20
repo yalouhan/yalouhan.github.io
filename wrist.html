@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Wrist Perciever</title>
+        <link rel="icon" link="images\logo.svg" type="image/svg">
+        <meta charset="utf-8" />
+        <meta name="viewport" type="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets\css\main.css" />
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script> -->
+        <noscript><link rel="stylesheet" href="assets\css\noscript.css" /></noscript>
+    </head>
+
+    <body class="container">
+         <!-- Header -->
+            <header id="header">
+
+                <!-- back button -->
+                    <a class="button" id="backButton"><i class="fa-solid fa-arrow-left-long"></i></a>
+
+                    <script>
+                        document.getElementById("backButton").addEventListener("click", function(){
+                            window.history.back();
+                        });
+                    </script>
+
+                <!-- LOGO -->
+                    <a href="index.html" class="logo">
+                        <span class="symbol"><img src="images\logo.svg" alt="" /></span><span class="title">Yalou Han</span>
+                    </a>
+                
+                <!-- Navigation -->
+                    <a href="projects.html" class="button">Show More</a>
+
+            </header>
+
+        <div id="wrapper">
+            <div class="projectContent">
+                <div class="projectInfo">
+                    <h1>
+                        Wrist Perciever
+                    </h1>
+                    <p>
+                        We want to have the most realistic experience in the virtual world, so that our bodies can also interact with the virtual world. In the real world, due to the presence of gravity, 
+                        we feel the reaction force on our wrists, arms, etc. in addition to the tactile sensation of our hands when we grasp objects, lift and drop them.
+
+                        To achieve this, this project aims to extend force feedback from hand haptics to constraint on wrist movements, using a nickel-titanium alloy memory metal spring as an artificial muscle 
+                        to complete the design of a wrist gravity sensing device.
+                    </p>
+                </div>
+
+                <div id="bookContainer">
+                    <!-- <div class="button" id="previous"><i class="fa-solid fa-chevron-left"></i></div> -->
+                    <div id="projectBook">
+                        <div class="page" id="page1"><img src="images\ash\page.png" /></div>
+                        <div class="page" id="page2"><img src="images\ash\page2.png" /></div>
+                        <div class="page" id="page3"><img src="images\ash\page3.png" /></div>
+                        <div class="page" id="page4"><img src="images\ash\page4.png" /></div>
+                        <div class="page" id="page5"><img src="images\ash\page5.png" /></div>
+                        <div class="page" id="page6"><img src="images\ash\page6.png" /></div>
+                        <div class="page" id="page7"><img src="images\ash\page7.png" /></div>
+                        <div class="page" id="page8"><img src="images\ash\page8.png" /></div>
+                        <div class="page" id="page9"><img src="images\ash\page9.png" /></div>
+                        <div class="page" id="page10"><img src="images\ash\page10.png" /></div>
+                    </div>           
+                    <!-- <div class="button" id="next"><i class="fa-solid fa-chevron-right"></i></div> -->
+
+                </div>             
+            </div>
+        </div>
+        <!-- <script src="assets\js\pageTurn.js"></script> -->
+    </body>
+</html>

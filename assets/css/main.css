@@ -50,7 +50,6 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-
     font-family: 'Roboto Mono', monospace;
     font-size: 12pt;
     font-weight: 300;
@@ -96,23 +95,23 @@ header {
         margin-top: 5px;
     }
 
-    header a.button {
-        font-family: inherit;
-        font-size: inherit;
-        font-weight: 900;
-        line-height: normal;
-        color: #3700ff;
-        padding: 1px 10px; 
-        border-radius: 20pt;
-        border: 1pt solid black;
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s;
-    }
+.button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 900;
+    line-height: normal;
+    color: #3700ff;
+    padding: 1px 10px; 
+    border-radius: 20pt;
+    border: 1pt solid black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
 
-        header a.button:hover {
-            background-color: #3700ff;
-            color: white;
-        }
+    .button:hover {
+        background-color: #3700ff;
+        color: white;
+    }
 
     header a.logo{
         font-family: inherit;
@@ -137,6 +136,7 @@ header {
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin: auto;
 }
 
 #sidebar {
@@ -193,7 +193,7 @@ header {
     margin: 10px auto 0 auto;
 }
 
-    .card h2, p{
+    .card h2, .card p{
         font-size: 16px;
         margin: 10pt;
     }
@@ -262,6 +262,8 @@ div.contact{
     width: 100%;
     height: 95vh;
     margin: 10pt auto 5pt auto;
+    border: 2pt solid black;
+    border-radius: 10px;
   }
   
     .carousel-item.active {
@@ -272,6 +274,7 @@ div.contact{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 10px;
     }
 
 #spring {
@@ -321,14 +324,68 @@ div.contact{
     width: 100%;
     height: auto;
     padding: 10px;
-    border: none;
+    border-radius: 15px;
 }
 
-.project h2, p{
+.project h2, .project p{
     margin: 10px;
     text-align: left;
     border: none;
 }
+
+div.projectContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.projectInfo{
+    flex: 25%;
+    max-width: 75vw;
+    margin:10px;
+}
+
+    .projectInfo h1, .projectInfo p{
+        text-align: center;
+    }
+
+
+div#bookContainer{
+    flex: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #projectBook{
+        column-count: 1;
+        column-gap: 0;
+        margin: auto;
+    }
+
+    #projectBook img{
+        width: 75vw;
+        height: auto;
+        margin: 5auto;
+        border: none;
+    }
+
+        @media screen and (min-width:1400px){
+            #projectBook{
+                column-count: 2;
+            }
+            #projectBook img{
+                height: 90vh;
+                width: auto;
+            }
+        }
+
+
+
+    
+
+
 
 
 

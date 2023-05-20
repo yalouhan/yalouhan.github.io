@@ -308,23 +308,26 @@ div.contact{
 
 .project {
     border: 2pt solid black;
-    border-radius: 10%;
+    border-radius: 10px;
     flex: 1 1 auto;
     min-width: 100px;
     align-items: center;
     break-inside: avoid;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .project img {
     width: 100%;
     height: auto;
-    padding: 5px;
+    padding: 10px;
+    border: none;
 }
 
 .project h2, p{
-    margin: 10px 5px 5px 5px;
+    margin: 10px;
     text-align: left;
+    border: none;
 }
 
 

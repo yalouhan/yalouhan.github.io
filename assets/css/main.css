@@ -256,6 +256,39 @@ div.contact{
         font-weight: 700;
     }
 
+    #footer{
+        margin: 1em;
+    }
+
+    #footer h1{
+        margin: 10px 0 7px 0 ;
+    }
+
+    #inproject{
+        margin: 5px 0 15px 0;
+        padding-bottom: 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    #inproject a{
+        border: none;
+    }
+
+    #inproject .label{
+        text-decoration: none;
+        font-family: inherit;
+        font-size: 12pt;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+
 
 .carousel-item {
     display: none;
@@ -327,7 +360,7 @@ div.contact{
     border-radius: 15px;
 }
 
-.project h2, .project p{
+.project h2, .project p, .project h3{
     margin: 10px;
     text-align: left;
     border: none;
@@ -381,6 +414,49 @@ div#bookContainer{
             }
         }
 
+#presentation{
+    max-width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    #presentation img{
+        width: calc((75vw - 60px) / 4);
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+
+    #presentation img.ana{
+        width: 75vw;
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+
+    #presentation video{
+        width: 75vw;
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+
+
+.youtube-video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 9/16 * 100% */
+    height: 0;
+}
+
+.youtube-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    
 
 
     

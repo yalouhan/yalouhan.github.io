@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SLM Printed LatticeStructure</title>
+        <link rel="icon" link="images\logo.svg" type="image/svg">
+        <meta charset="utf-8" />
+        <meta name="viewport" type="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets\css\main.css" />
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script> -->
+        <noscript><link rel="stylesheet" href="assets\css\noscript.css" /></noscript>
+    </head>
+
+    <body class="container">
+         <!-- Header -->
+            <header id="header">
+
+                <!-- back button -->
+                    <a class="button" id="backButton"><i class="fa-solid fa-arrow-left-long"></i></a>
+
+                    <script>
+                        document.getElementById("backButton").addEventListener("click", function(){
+                            window.history.back();
+                        });
+                    </script>
+
+                <!-- LOGO -->
+                    <a href="index.html" class="logo">
+                        <span class="symbol"><img src="images\logo.svg" alt="" /></span><span class="title">Yalou Han</span>
+                    </a>
+                
+                <!-- Navigation -->
+                    <a href="projects.html" class="button">Show More</a>
+
+            </header>
+
+        <div id="wrapper">
+            <div class="projectContent">
+                <div class="projectInfo">
+                    <h1>
+                        SLM Printed LatticeStructure
+                    </h1>
+                    <p>
+                        My research interest is in the application of computational design to additive manufacturing. During this time, I have used computational design methods to design lattice structures such as body-centred cubic, face-centred cubic, 
+                        simple cubic and diamond-like lattices in different arrangements and have completed structural performance simulations and real-world compression tests on samples made of stainless steel with laser powder bed fusion process.
+                    </p>
+                </div>
+
+                <div id="presentation">
+                        <img src="images\slm\page.jpg" />
+                        <img src="images\slm\page3.jpg" />
+                        <img src="images\slm\page5.jpg" />
+                        <img src="images\slm\page6.jpg" />
+                        <img class="ana" src="images\slm\page7.png" />
+                        <img class="ana" src="images\slm\page8.png" />
+                        <video controls>
+                            <source src="images\slm\video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>   
+                </div>                         
+            </div>
+        </div>
+        <!-- <script src="assets\js\pageTurn.js"></script> -->
+        <div class="contact" id="footer" >
+            <h1>Contact ME</h1>
+            <ul id="inproject">
+                <li><a href="yalou.han22@imperial.ac.uk"><i class="fa-solid fa-envelope"></i><span class="label">Email</span></a></li>
+                <li><a href="https://instagram.com/yaloulouloulou"><i class="fa-brands fa-instagram" ></i><span class="label">Instagram</span></a></li>
+                <li><a href="http://linkedin.com/in/yalou-han-a06975254"><i class="fab fa-linkedin"></i><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/yalouhan"><i class="fab fa-github"></i><span class="label">GitHub</span></a></li>
+            </ul>
+        </div>   
+    </body>
+</html>

@@ -372,21 +372,16 @@ div.contact{
 }
 
 .photo {
-    border: 2pt solid black;
-    border-radius: 10px;
     flex: 1 1 auto;
     min-width: 100px;
     align-items: center;
     break-inside: avoid;
     margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .photo img {
     width: 100%;
     height: auto;
-    padding: 10px;
-    border-radius: 15px;
 }
 
 .project h2, .project p, .project h3{

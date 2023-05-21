@@ -9,7 +9,7 @@
 
 h1{
     font-family: inherit;
-    font-size: 20pt;
+    font-size:inherit;
     font-weight: 700;
     line-height: normal;
     color: inherit;
@@ -18,8 +18,16 @@ h1{
 
 h2{
     font-family: inherit;
-    font-size: 18pt;
+    font-size: inherit;
     font-weight: 900;
+    line-height: normal;
+    color: inherit;
+}
+
+h3{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
     line-height: normal;
     color: inherit;
 }
@@ -464,6 +472,16 @@ div#bookContainer{
     justify-content: space-between;
 }
 
+#CV h1 {
+    font-size: inherit;
+    font-size: 24px;
+}
+
+#CV h2 {
+    font-style: oblique;
+    font-size: 20px;
+}
+
 #basicInfo{
     display: flex;
     flex-direction: row;
@@ -478,6 +496,10 @@ div#bookContainer{
     max-width: 50vw;
     height: fit-content;
 }
+
+    #name h2{
+        font-style:normal
+    }
 
 #contactyalou{
     text-align: right;
@@ -505,7 +527,7 @@ div#bookContainer{
 }
 
     .experience h2{
-        margin: 0 0 2px 0;
+        margin: 0 0 8px 0;
         max-width: 50vw;
         height: fit-content;
     }
@@ -514,7 +536,28 @@ div#bookContainer{
         max-width: 50vw;
         height: fit-content;
     }
-    
+
+.summary h2{
+    font-weight: 900;
+}
+
+.content{
+    font-weight: 300;
+}
+
+.employee{
+    font-style: oblique;
+    font-size: 14px;
+}
+
+.GPA{
+    font-weight: 600;
+}
+
+.timespan{
+    max-width: 20vw;
+    margin: 0;
+}
 
 
     
